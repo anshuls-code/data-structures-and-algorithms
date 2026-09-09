@@ -47,7 +47,7 @@ public class P01_LargestElements {
 
     static void main() {
         int[] arr = {1, 2, 4, 5, 8, 3, 7, 10, 9, 0};
-        System.out.println("Largest: " + largestElem(arr) +
+        System.out.print("Largest: " + largestElem(arr) +
                 "\nSecond Largest: " + secondLargestElem(arr) +
                 "\nThird Largest: " + thirdLargestElem(arr));
     }

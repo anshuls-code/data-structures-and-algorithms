@@ -36,7 +36,7 @@ public class P12_ThreeSum {
         return res;
     }
 
-     static void main(String[] args) {
+     static void main() {
         int[] arr = {-1, 0, 1, 2, -1, -4};
         System.out.print(threeSum(arr)); // Output: [[-1, -1, 2], [-1, 0, 1]]
     }

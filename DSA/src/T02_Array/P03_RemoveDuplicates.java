@@ -17,6 +17,6 @@ public class P03_RemoveDuplicates {
     static void main() {
         int[] arr = {1,1,2};
         int k = removeDuplicates(arr);
-        System.out.println(k);
+        System.out.print(k);
     }
 }

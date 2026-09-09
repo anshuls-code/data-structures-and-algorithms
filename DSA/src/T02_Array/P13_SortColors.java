@@ -52,7 +52,7 @@ public class P13_SortColors {
         }
     }
 
-    static void main(String[] args) {
+    static void main() {
         int[] arr = {2, 0, 2, 1, 1, 0};
         sortColors_II(arr);
         System.out.print(Arrays.toString(arr));

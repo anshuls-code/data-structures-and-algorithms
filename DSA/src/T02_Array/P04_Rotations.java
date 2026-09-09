@@ -39,6 +39,6 @@ public class P04_Rotations {
     static void main() {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         rotateLeft(arr, 1);
-        System.out.println(Arrays.toString(arr));
+        System.out.print(Arrays.toString(arr));
     }
 }

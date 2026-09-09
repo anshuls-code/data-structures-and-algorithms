@@ -15,6 +15,6 @@ public class P02_SortedArray {
 
     static void main() {
         int[] arr = {1, 2, 3, 5, 4, 6, 7, 8};
-        System.out.println(isSorted(arr));
+        System.out.print(isSorted(arr));
     }
 }

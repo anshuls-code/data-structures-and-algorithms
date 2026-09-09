@@ -24,15 +24,8 @@ public class P10_LongestSubarraySum {
         return longestSubarray;
     }
 
-//    public static int longestSubarraySum_II(int[] arr, int k) {
-//
-//    }
-
     static void main() {
         int[] arrPos = {10, 5, 2, 7, 1, 9, 1, 1, 1, 1, 1};
         System.out.print(longestSubarraySum_I(arrPos, 15));
-
-//        int[] arrNeg = {2, -1, 2, 3, -2};
-//        System.out.println(longestSubarraySum_II(arrNeg, 3));
     }
 }
